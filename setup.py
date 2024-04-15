@@ -38,7 +38,7 @@ setuptools.setup(
     author="European Centre for Medium-Range Weather Forecasts (ECMWF)",
     author_email="software.support@ecmwf.int",
     license="Apache License Version 2.0",
-    url="https://github.com/ecmwf-lab/ai-models-graphcast",
+    url="https://github.com/yeechianlow/ai-models-graphcast",
     packages=setuptools.find_packages(),
     include_package_data=True,
     # JAX requirements are in requirements.txt
@@ -51,7 +51,7 @@ setuptools.setup(
     keywords="tool",
     entry_points={
         "ai_models.model": [
-            "graphcast_operational = ai_models_graphcast.model:model",
+            "graphcast = ai_models_graphcast.model:model",
         ]
     },
     classifiers=[
