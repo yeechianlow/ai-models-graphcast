@@ -13,7 +13,7 @@ The model weights are made available for use under the terms of the Creative Com
 To install the package, run:
 
 ```bash
-pip install ai-models-graphcast
+pip install git+https://github.com/yeechianlow/ai-models-graphcast
 ```
 
 This will install the package and most of its dependencies.
